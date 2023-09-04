@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="inicio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <style>
+        label {
+            color: black;
+        }
+
+        input {
+            background: none;
+            border: 1px solid black;
+            color: black;
+            width: 100%;
+            border-radius: 20px;
+            padding-left: 10px;
+            height: 40px;
+        }
+
+        textarea {
+            background: none;
+            border: 1px solid black;
+            color: black;
+            border-radius: 20px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .submit {
+            margin-top: 30px;
+            background: black;
+            width: 100%;
+            border-radius: 20px;
+            height: 40px;
+            color: rgb(255, 230, 0);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <label class="title">GYM MATRIX®</label>
+        </header>
+        <nav>
+            <div class="navegacion">
+                <button class="btn"><a href="index.html">Inicio</a></button>
+                <button class="btn"><a href="menbresias.html">Menbresias</a></button>
+                <button class="btn"><a href="planes.html">Planes</a></button>
+                <button class="btn"><a href="galeria.html">Galeria</a></button>
+                <button class="btn"><a href="horarios.html">Horarios</a></button>
+                <button class="btn"><a href="contacto.html">Contacto</a></button>
+
+                <button class="btn" style="background: black;">
+                    <a href="login.html" style="color: rgb(255, 230, 0);">Iniciar Sesion</a>
+                </button>
+                <button style="border: solid 1px rgb(0, 0, 0); background: none;" class="btn">
+                    <a href="signup.html" style="color: rgb(0, 0, 0);">Registrarse</a>
+                </button>
+            </div>
+        </nav>
+    </div>
+    <div class="content">
+        <div style="padding: 20px; display: grid; grid-template-columns: calc(100% - 500px) 500px;">
+            <form style="padding-right: 20px;">
+                <h1 style="color: black;">Formulario de Contacto </h1>
+                <section style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
+                    <div>
+                        <label for="nombre">Ingrese su nombre:</label>
+                        <input type="text" name="nombre" />
+                    </div>
+                    <div>
+                        <label for="correo">Ingrese su correo:</label>
+                        <input type="email" name="correo" />
+                    </div>
+                    <div>
+                        <label for="celular">Ingrese numero de celular:</label>
+                        <input type="tel" name="celular" />
+                    </div>
+                    <div>
+                        <label for="dni">Dni:</label>
+                        <input type="text" name="dni" />
+                    </div>
+                </section>
+
+                <div style="margin-top: 20px;">
+                    <label for="mensaje">Escribe mensaje:</label>
+                    <br />
+                    <textarea name="mensaje" cols="50" rows="5"></textarea>
+                </div>
+                <button class="submit">Enviar</button>
+            </form>
+            <div style="background: black; color: rgb(255, 230, 0); padding: 50px; border-radius: 20px;">
+                <div>
+                    <h3 style="font-weight: normal; font-size: 28px; margin-bottom: 20px;">Acerca de...</h3>
+                </div>
+                <div>
+                    <p><i class="bi bi-geo-alt-fill"></i> Ate, Lima</p>
+                    <p><i class="bi bi-telephone-fill"></i> (01) 483 9457</p>
+                    <p><i class="bi bi-envelope-fill"></i> gymmatrixclub@gmail.com</p>
+                </div>
+                <div style="margin-top: 40px;">
+                    <h5><i class="bi bi-chat-left-dots-fill"></i> Puedes escribir lo siguiente</h5>
+                    <p>Hola, me gustaría obtener más información sobre sus servicios y horarios. ¿Podrían proporcionarme
+                        detalles sobre las membresías disponibles y cómo puedo inscribirme? ¡Gracias!"</p>
+                </div>
+                <div>
+                    <label style="color: rgb(255, 230, 0);"><i class="bi bi-globe"></i> gymmatrix-club.com</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer
+        style="font-size: 32px; width: 100%; color: white; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; text-align: center; height: 150px; background: black; padding: 50px;">
+        <i class="bi bi-instagram"></i>
+        <i class="bi bi-facebook"></i>
+        <i class="bi bi-whatsapp"></i>
+    </footer>
+</body>
+
+</html>
