@@ -69,21 +69,21 @@
         <div>
             <h1>GYM MATRIX®</h1>
         </div>
-        <form style="position: relative; height: 80%;">
+        <form action="login.php" method="post" style="position: relative; height: 80%;">
             <div>
-                <label for="">Ingrese codigo de usuario:</label>
-                <input type="text" name="codigo" class="form-control">
+                <label for="">Ingrese correo:</label>
+                <input type="text" name="correo" class="form-control">
             </div>
             <div>
                 <label for="password">Ingrese contraseña:</label>
-                <input type="password" name="password" class="form-control">
+                <input type="password" name="contraseña" class="form-control">
             </div>
             <div style="position: absolute; bottom: 100px;">
                 <a href="inicio.html" style="color: rgb(255, 208, 0);">¿Olvidaste la contraseña?</a>
             </div>
             <div style="width: 100%; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; position: absolute; bottom: 30px;">
                 <button class="btn" style="color: rgb(255, 208, 0); border: solid 2px rgb(255, 208, 0);"><a href="signup.html" style="color: rgb(255, 208, 0);">Crear Usuario</a></button>
-                <button class="btn btn-warning"><a href="index.html">Iniciar Sesion<i class="bi bi-box-arrow-in-right"></i></a></button>
+                <button class="btn btn-warning" type="submit"><a href="index.html">Iniciar Sesion<i class="bi bi-box-arrow-in-right"></i></a></button>
             </div>
         </form>
     </div>
