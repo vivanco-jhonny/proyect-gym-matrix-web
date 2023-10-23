@@ -57,7 +57,7 @@
         <nav>
             <div class="navegacion">
                 <button class="btn"><a href="index.html">Inicio</a></button>
-                <button class="btn"><a href="menbresias.html">Menbresias</a></button>
+                <button class="btn"><a href="membresias.html">Membresias</a></button>
                 <button class="btn"><a href="planes.html">Planes</a></button>
                 <button class="btn"><a href="galeria.html">Galeria</a></button>
                 <button class="btn"><a href="horarios.html">Horarios</a></button>
@@ -74,7 +74,7 @@
     </div>
     <div class="content">
         <div style="padding: 20px; display: grid; grid-template-columns: calc(100% - 500px) 500px;">
-            <form style="padding-right: 20px;">
+            <form method="post" action="contacto.php" style="padding-right: 20px;">
                 <h1 style="color: black;">Formulario de Contacto </h1>
                 <section style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem;">
                     <div>
@@ -100,7 +100,7 @@
                     <br />
                     <textarea name="mensaje" cols="50" rows="5"></textarea>
                 </div>
-                <button class="submit">Enviar</button>
+                <button type="submit" name="enviar" class="submit">Enviar</button>
             </form>
             <div style="background: black; color: rgb(255, 230, 0); padding: 50px; border-radius: 20px;">
                 <div>
