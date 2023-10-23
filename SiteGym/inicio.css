@@ -54,3 +54,10 @@ a {
         visibility: visible;
     }
 }
+.mensaje-exito {
+    background: black;
+    color: rgb(255, 230, 0);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
