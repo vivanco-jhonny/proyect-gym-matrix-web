@@ -22,6 +22,4 @@ document.addEventListener('DOMContentLoaded', function () {
             delay: 500 + index * 200
         });
     });
-
-    // Puedes agregar más animaciones aquí según sea necesario
 });
