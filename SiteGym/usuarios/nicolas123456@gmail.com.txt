@@ -1,0 +1,1 @@
+{"nombre":"Nicolas","apellido":"Vilchez","edad":"20","celular":"952543634","correo":"nicolas123456@gmail.com","direccion":"Calle 2","dni":"75428159","contrase\u00f1a":"$2y$10$qKn2nY1kDK2PpBgjF0jpwel5g696Iu11Ik0xNgEzWKFC0q3jU9Wey"}

@@ -1,0 +1,1 @@
+{"nombre":"Romulo","apellido":"Daniel","edad":"19","celular":"9525435346","correo":"romulo123@gmail.com","direccion":"Calle 1","dni":"75426543","contrase\u00f1a":"$2y$10$5cWNdlbo0.sAvi8\/45qplOc4wOqLfd9xu6FARjCNUQz5oJpOp5Tym"}
