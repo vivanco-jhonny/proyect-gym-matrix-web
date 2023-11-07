@@ -1,0 +1,4 @@
+npm i react-router-dom
+npm install firebase
+npm install @mui/material @emotion/react @emotion/styled
+npm i zustand
