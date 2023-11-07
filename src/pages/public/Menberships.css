@@ -1,0 +1,71 @@
+/* .grid-menbresias {
+    display: grid;
+    width: 100%;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+}
+article {
+    width: 100%;
+    height: 450px;
+    background: none;
+    background-size: contain;
+    border: 2px solid black;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+}
+article h1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    text-decoration: overline;
+}
+article button {
+    width: 100%;
+}
+article div {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    width: calc(100% - 60px);
+}
+h5 {
+    position: absolute;
+    left: 50%;
+    font-weight: 300;
+    transform: translateX(-50%);
+    margin-top: 20px;
+    font-size: 38px;
+    color: black;
+}
+ul {
+    position: absolute;
+    top: 140px;
+}
+ul label {
+    transform: translateX(-40px);
+    color: black;
+    font-weight: 800;
+    font-size: 14px;
+}
+li {
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(0, 0, 0);
+}
+article p {
+    position: absolute; 
+    left: 30px; 
+    top: 0px; 
+    transform: translateY(-15px);
+    color: white; 
+    box-shadow: 0px 0px 0px 10px rgb(255, 230, 0);
+    background: black; 
+    width: auto; 
+    font-size: 12px; 
+    font-weight: 300;
+    padding: 5px; 
+    border-radius: 10px;
+} */

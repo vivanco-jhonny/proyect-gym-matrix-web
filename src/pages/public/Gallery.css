@@ -1,0 +1,29 @@
+.grid-gallery {
+    margin-top: 50px;
+    width: calc(100% - 40px); 
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-auto-flow: dense;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
+}
+.grid-gallery article {
+    position: relative;
+    overflow: hidden;
+}
+.grid-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px black;
+    transition: all 0.1s;
+}
+
+.grid-gallery img:hover {
+    filter: grayscale();
+    transform: scale(1.15);
+    box-shadow: 4px 0px 10px black;
+}

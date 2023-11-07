@@ -1,0 +1,83 @@
+.borderbutton {
+    clip-path: polygon(10% 0,100% 0, 90% 100%, 0 100%); 
+    border: 8px solid rgb(255, 230, 0); 
+    position: absolute; 
+    left: 50%; 
+    top: 50%;
+    transform: translateX(-50%); 
+    padding: 10px;
+}
+.grid-classes {
+    display: grid; 
+    width: 100%; 
+    grid-template-columns: repeat(4, 1fr);
+    background: black;
+}
+.baner {
+    display: block;
+}
+.baner-movil {
+    display: block;
+}
+
+@media (max-width: 1000px) {
+    .baner {
+        visibility: hidden;
+        display: none;
+    }
+    .baner-movil {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 1000px) {
+    .baner {
+        visibility: visible;
+    }
+    .baner-movil {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+.grid-classes section {
+    position: relative;
+    overflow: hidden;
+    height: calc(100% - 1px);
+}
+.grid-classes section h1 {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    color: white;
+    font-weight: 300;
+}
+.grid-classes section img {
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: all 0.1s;
+}
+.grid-classes section img:hover {
+    transform: scale(1.2);
+}
+.grid-classes section button {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 40px;
+    color: white;
+    font-weight: normal;
+    width: 90%;
+    background: none;
+    border: 1px solid white;
+    height: 40px;
+    transition: all 0.1s;
+}
+.grid-classes section button:hover {
+    background: white;
+    color: black;
+}

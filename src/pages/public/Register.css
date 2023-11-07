@@ -1,0 +1,79 @@
+.backregister {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background-image: url("../../../public/multimedia/img-gym-01.jpg");
+    background-size: cover;
+    background-position: right;
+}
+.register-form {
+    position: absolute;
+    z-index: 10;
+    padding-left: 70px;
+    padding-right: 150px;
+    top: 0px;
+    left: 0px;
+    width: 60%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%);
+    background: rgb(255, 230, 0);
+}
+.register-form form {
+    margin-top: 70px;
+    height: 80%;
+    width: 100%;
+}
+.register-form form section {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+.register-form form section label {
+    margin-bottom: 10px;
+    color: black;
+}
+.register-form form section input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    width: 100%;
+    height: 40px;
+}
+.register-form form section input:focus {
+    border: none;
+    border-bottom: 2px solid black;
+}
+.register-form form h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: black;
+}
+.register-form form section button {
+    background: none;
+    border: none;
+    text-decoration: underline;
+}
+@media (max-width: 1000px) {    /* Movil */
+    .backregister {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        background-image: none;
+    }
+    .register-form {
+        position: absolute;
+        z-index: 10;
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        clip-path: none;
+        background: rgb(255, 230, 0);
+    }
+}

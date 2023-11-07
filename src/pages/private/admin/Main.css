@@ -1,0 +1,6 @@
+.textsearch {
+    padding-left: 20px;
+}
+.textsearch::placeholder {
+    color: black;
+}

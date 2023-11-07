@@ -1,0 +1,16 @@
+.form-create-products {
+    background: rgb(255, 230, 0);
+}
+
+.form-create-products label {
+    color: black;
+    font-size: 18px;
+}
+
+.form-create-products input {
+    border: solid 2px black;
+    background: none;
+    border-radius: 20px; 
+    height: 36px;
+    padding: 10px;
+}
